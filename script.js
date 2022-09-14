@@ -121,7 +121,8 @@ const start = () => {
       startTime = new Date().getTime();
       countdownOverlay.style.display = "none";
     }
-    count--;  
+    count--; 
+    errorCount++; 
     
   }, 1000);
 
