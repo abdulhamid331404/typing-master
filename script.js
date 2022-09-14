@@ -9,7 +9,6 @@ const modalBackground = document.getElementById("modal-background");
 let userText = "";
 let errorCount = 0;
 let startTime;
-// let startTime = parseInt;
 let questionText = "";
 
 // Load and display question
@@ -123,8 +122,6 @@ const start = () => {
     }
     count--; 
     errorCount++; 
-    
-    
   }, 1000);
 
 };
