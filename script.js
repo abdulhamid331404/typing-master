@@ -124,6 +124,7 @@ const start = () => {
     count--; 
     errorCount++; 
     
+    
   }, 1000);
 
 };
